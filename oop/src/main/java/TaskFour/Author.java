@@ -36,6 +36,6 @@ public class Author {
 
     @Override
     public String toString() {
-        return "Name: " + name + " Gender: " + gender + " Email: " + email;
+        return "Name: " + name + " \nGender: " + gender + " \nEmail: " + email;
     }
 }

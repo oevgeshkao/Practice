@@ -44,14 +44,14 @@ public class Matrix {
         double val = 0;
 
         for (int i = 0; i < rows; i++) {
-            for (int k = 0; k < rows; k++) {
+            for (int g = 0; g < rows; g++) {
                 val = 0;
 
                 for (int j = 0; j < columns; j++) {
-                    val += matrix[i][j] * m.getValue(j, k);
+                    val += matrix[i][j] * m.getValue(j, g);
                 }
 
-                result.setValue(i, k, val);
+                result.setValue(i, g, val);
             }
         }
         return result;

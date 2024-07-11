@@ -5,7 +5,7 @@ public class Triangle extends Figure {
     private double b;
     private double c;
 
-    public Triangle(double a, double b, double c, double x, double y)  {
+    public Triangle(double a, double b, double c, double x, double y) {
         super(new Point(x, y), "Треугольник");
         this.a = a;
         this.b = b;

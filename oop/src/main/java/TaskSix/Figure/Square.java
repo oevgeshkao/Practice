@@ -15,6 +15,7 @@ public class Square extends Figure {
     public void setSide(double side) {
         this.side = side;
     }
+
     @Override
     public double area() {
         return side * side;

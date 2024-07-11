@@ -6,7 +6,6 @@ public class Circle extends Figure {
     public Circle(double radius, double x, double y) {
         super(new Point(x, y), "Круг");
         this.radius = radius;
-
     }
 
     public void setRadius(double radius) {

@@ -1,7 +1,7 @@
 package TaskFive;
 
 public class PizzaOrder {
-    private String title;
+    private String name;
     private Size size;
     private boolean sauce;
     private String address;
@@ -25,8 +25,8 @@ public class PizzaOrder {
         }
     }
 
-    public PizzaOrder(String title, Size size, boolean sauce, String address) {
-        this.title = title;
+    public PizzaOrder(String name, Size size, boolean sauce, String address) {
+        this.name = name;
         this.size = size;
         this.sauce = sauce;
         this.address = address;
@@ -57,11 +57,11 @@ public class PizzaOrder {
     }
 
     public String getTitle() {
-        return title;
+        return name;
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        this.name = name;
     }
 
     public String sauceNeed() {
@@ -77,7 +77,7 @@ public class PizzaOrder {
             System.out.println("Заказ принят");
         } else {
             accept = true;
-            System.out.println("Заказ принят." + size.getSize() + " пицца " + title + " " + sauceNeed() + " на адрес " + address);
+            System.out.println("Заказ принят." + size.getSize() + " пицца " + name + " " + sauceNeed() + " на адрес " + address);
         }
     }
 
@@ -92,6 +92,6 @@ public class PizzaOrder {
 
     @Override
     public String toString() {
-        return "Пицца: " + title  + "\nРазмер: " + size+ "\nСоус: " + sauceNeed()  + "\nАдрес: " + address ;
+        return "Пицца: " + name  + "\nРазмер: " + size+ "\nСоус: " + sauceNeed()  + "\nАдрес: " + address ;
     }
 }

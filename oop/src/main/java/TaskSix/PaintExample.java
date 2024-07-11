@@ -1,4 +1,5 @@
 package TaskSix;
+
 import TaskSix.Figure.Square;
 import TaskSix.Figure.Color;
 import TaskSix.Figure.Rectangle;
@@ -12,7 +13,7 @@ public class PaintExample {
         square.draw();
         square.draw(Color.BLUE);
 
-        Rectangle rect = new Rectangle(9, 7, 7,  2);
+        Rectangle rect = new Rectangle(9, 7, 7, 2);
         System.out.println("*************");
         rect.draw();
         rect.draw(Color.RED);

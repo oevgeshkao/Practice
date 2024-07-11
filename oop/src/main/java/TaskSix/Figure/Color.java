@@ -9,11 +9,11 @@ public enum Color {
 
     private final String Name;
 
-    Color(String Name){
+    Color(String Name) {
         this.Name = Name;
     }
 
-    public String getName(){
+    public String getName() {
         return Name;
     }
 }

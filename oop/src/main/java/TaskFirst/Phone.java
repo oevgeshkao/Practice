@@ -17,7 +17,6 @@ public class Phone {
     }
 
     public Phone() {
-
     }
 
     public String getNumber() {

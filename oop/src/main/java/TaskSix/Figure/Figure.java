@@ -1,6 +1,6 @@
 package TaskSix.Figure;
 
-public abstract class Figure implements Drawable{
+public abstract class Figure implements Drawable {
     public Point point;
     private String name = "Фигура";
 
@@ -12,6 +12,7 @@ public abstract class Figure implements Drawable{
         this.point = point;
         this.name = name;
     }
+
     @Override
     public void draw() {
         System.out.println("Фигура: " + name + " " + point);
@@ -19,7 +20,7 @@ public abstract class Figure implements Drawable{
 
     @Override
     public void draw(Color color) {
-        System.out.println("Фигура: " + name + " Цвет: " + color.getName()+ " " + point);
+        System.out.println("Фигура: " + name + " Цвет: " + color.getName() + " " + point);
     }
 
 }

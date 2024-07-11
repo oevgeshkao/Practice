@@ -1,10 +1,13 @@
 package TaskSix;
+
 import TaskSix.Figure.Figure;
 import TaskSix.Figure.Drawable;
 import TaskSix.Figure.Color;
+
 public class FigureUtil {
 
-    private FigureUtil() {}
+    private FigureUtil() {
+    }
 
     public static double area(Figure figure) {
         return figure.area();
