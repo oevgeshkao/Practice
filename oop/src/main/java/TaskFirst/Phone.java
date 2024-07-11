@@ -37,6 +37,7 @@ public class Phone {
             System.out.println(number);
         }
     }
+
     @Override
     public String toString() {
         return "Number: " + number + " Model: " + model + " Weight: " + weight;

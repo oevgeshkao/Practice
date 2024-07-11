@@ -12,11 +12,11 @@ public class Main {
         System.out.println(phone1.getNumber());
 
         phone.receiveCall("Vera");
-        phone1.receiveCall("Lida",phone1.getNumber());
+        phone1.receiveCall("Lida", phone1.getNumber());
 
-        String[] numbers={"89114457899", "89536574125", "89115478431"};
+        String[] numbers = {"89114457899", "89536574125", "89115478431"};
         phone.sendMessage(numbers);
 
-       
+
     }
 }
